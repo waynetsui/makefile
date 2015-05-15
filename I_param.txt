@@ -1,0 +1,3 @@
+原makefile文件中有一句
+INCLUDE     = -I../arch/ak10xxL/include -I../hal/include -I../include -I../os -I../devices/include
+这一句中的-I参数是用来指定头文件目录的，详情可以查看 GCC帮助
